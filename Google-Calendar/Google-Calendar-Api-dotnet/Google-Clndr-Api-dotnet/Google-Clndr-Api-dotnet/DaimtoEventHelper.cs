@@ -92,6 +92,7 @@ namespace Google_Clndr_Api_dotnet
 
         /// <summary>
         /// Adds an entry to the user's calendar list.  
+        //If the request fails due to 403(premissions) add the developer email to the calendar allowed editors, go to calendar.google.com --> settings --> add the developer email -- this only when using servcie oauth.
         /// Documentation:https://developers.google.com/google-apps/calendar/v3/reference/calendarList/insert
         /// </summary>
         /// <param name="service">Valid Autenticated Calendar service</param>
